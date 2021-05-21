@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+
+    .person-Card{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        padding: 1rem;
+        width: 20%;
+        border: 1px solid black;
+        h1, p{
+            margin-bottom: 10px;
+        }
+    
+        button{
+            width: 80%;
+            height: 25px;
+            color:#8c8c8c ;
+    
+        }
+    
+    }
+}
